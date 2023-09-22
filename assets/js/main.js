@@ -33,24 +33,21 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  var swiper = new Swiper('.swiper1', {
-    slidesPerView: 3,
-    direction: getDirection(),
-    navigation: {
-      nextEl: '.swiper-btn-next',
-      prevEl: '.swiper-btn-rev',
+  var swiper = new Swiper(".mySwiper2", {
+    autoHeight: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
     },
-    on: {
-      resize: function () {
-        swiper.changeDirection(getDirection());
-      },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
     },
   });
-
-  function getDirection() {
-    var windowWidth = window.innerWidth;
-    var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-
-    return direction;
-  }
 });

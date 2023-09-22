@@ -50,6 +50,8 @@ a {
   text-decoration: none;
 }
 
+
+
 /*header*/
 header {
   padding: 150px 150px;
@@ -66,17 +68,16 @@ header .container .contain {
 }
 
 header .container .contain h1 {
-  margin: 20px 150px 20px 150px;
+  margin: 20px 125px 20px 125px;
   font-size: 40px;
   font-weight: 900;
   text-transform: capitalize;
 }
 
 header .container .contain p {
-  margin: 15px 140px;
+  margin: 15px 40px;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 header .container .contain form {
@@ -101,7 +102,7 @@ header .container .contain form .cheack {
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  gap: 10px;
+  gap: 8px;
   width: 100%;
 }
 
@@ -110,18 +111,21 @@ header .container .contain form .cheack .sign {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 10px;
+  gap: 8px;
 }
 
 header .container .contain form .cheack .signed {
   margin: 0;
   color: var(--dark-color);
   font-weight: 900;
+  font-size: 14px;
 }
 
 header .container .contain form .cheack .forgot {
   margin: 0;
   color: var(--gray--lighter-color);
+  transform: all 0.5s;
+  font-size: 14px;
 }
 
 header .container .contain form .social-btn {
@@ -254,7 +258,7 @@ header .container .contain form .sign-up a::after {
   content: '';
   background-color: var(--gray--lighter-color);
   height: 3px;
-  width: 45px;
+  width: 60px;
   position: absolute;
   top: 20px;
   left: -100%;
