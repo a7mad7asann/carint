@@ -80,6 +80,12 @@ a:hover {
     height: 20px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .fst .box .img-bk {
+    width: 20px;
+    height: 20px;
+  }
+}
 .fst .box .img-bk img {
   width: 15px;
   height: 15px;
@@ -98,6 +104,12 @@ a:hover {
     height: 10px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .fst .box .img-bk img {
+    width: 10px;
+    height: 10px;
+  }
+}
 .fst .box p {
   color: #fff;
   margin-bottom: 0px;
@@ -110,6 +122,11 @@ a:hover {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .fst .box p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .fst .box p {
     font-size: 10px;
   }
@@ -157,6 +174,11 @@ a:hover {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .navbar .container .contain .navbar-nav {
+    display: none;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .navbar .container .contain .navbar-nav {
     display: none;
   }
@@ -211,6 +233,11 @@ a:hover {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .navbar .container .contain .dropdown {
+    display: block;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .navbar .container .contain .dropdown {
     display: block;
   }
@@ -318,6 +345,12 @@ header .contaianer .contain {
     margin-bottom: 60px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  header .contaianer .contain {
+    padding-left: 0px;
+    margin-bottom: 60px;
+  }
+}
 header .contaianer .contain .heading h1 {
   font-size: 40px;
   font-weight: 900;
@@ -333,6 +366,12 @@ header .contaianer .contain .heading h1 {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  header .contaianer .contain .heading h1 {
+    padding-right: 0px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   header .contaianer .contain .heading h1 {
     padding-right: 0px;
     font-size: 30px;
@@ -356,6 +395,12 @@ header .contaianer .contain .text p {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  header .contaianer .contain .text p {
+    padding-right: 0px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   header .contaianer .contain .text p {
     padding-right: 0px;
     font-size: 15px;
@@ -386,6 +431,15 @@ header .contaianer .contain button {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  header .contaianer .contain button {
+    width: 165px;
+    margin: 0 75px;
+    width: 165px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   header .contaianer .contain button {
     width: 165px;
     margin: 0 75px;
@@ -431,12 +485,22 @@ header .contaianer .contain button:hover::after {
     font-size: 23px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .services .container h1 {
+    font-size: 23px;
+  }
+}
 @media (max-width: 320px) {
   .services .container p {
     font-size: 15px;
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .services .container p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .services .container p {
     font-size: 15px;
   }
@@ -463,6 +527,11 @@ header .contaianer .contain button:hover::after {
     height: none;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .services .container .box-container .box {
+    height: none;
+  }
+}
 .services .container .box-container .box .img-bk img {
   width: 90px;
   transition: all 0.5s;
@@ -473,6 +542,11 @@ header .contaianer .contain button:hover::after {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .services .container .box-container .box .img-bk img {
+    width: 70px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .services .container .box-container .box .img-bk img {
     width: 70px;
   }
@@ -493,12 +567,22 @@ header .contaianer .contain button:hover::after {
     font-size: 14px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .services .container .box-container .box .content h2 {
+    font-size: 14px;
+  }
+}
 @media (max-width: 320px) {
   .services .container .box-container .box .content p {
     font-size: 10px;
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .services .container .box-container .box .content p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .services .container .box-container .box .content p {
     font-size: 10px;
   }
@@ -522,6 +606,11 @@ header .contaianer .contain button:hover::after {
     font-size: 15px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .services .container .box-container .box .content a {
+    font-size: 15px;
+  }
+}
 .services .container .box-container .box .content:hover a {
   color: var(--hover-color);
 }
@@ -534,6 +623,11 @@ header .contaianer .contain button:hover::after {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .services .container .box-container .box:hover img {
+    width: 90px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .services .container .box-container .box:hover img {
     width: 90px;
   }
@@ -565,12 +659,22 @@ header .contaianer .contain button:hover::after {
     font-size: 23px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .about .container .right h1 {
+    font-size: 23px;
+  }
+}
 @media (max-width: 320px) {
   .about .container .right p {
     font-size: 15px;
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .about .container .right p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .about .container .right p {
     font-size: 15px;
   }
@@ -603,6 +707,17 @@ header .contaianer .contain button:hover::after {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .about .container .right button {
+    width: 165px;
+    margin: 0 40px 30px 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .about .container .right button {
     width: 165px;
     margin: 0 40px 30px 40px;
@@ -652,6 +767,12 @@ header .contaianer .contain button:hover::after {
     margin: 20px 16px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .about .container .left img {
+    width: 230px;
+    margin: 20px 16px;
+  }
+}
 
 /*track*/
 .track {
@@ -691,6 +812,12 @@ header .contaianer .contain button:hover::after {
     align-items: center;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .track .container .content {
+    margin: 0px;
+    align-items: center;
+  }
+}
 .track .container .content h1 {
   color: var(--color-white);
   font-size: 33px;
@@ -704,6 +831,11 @@ header .contaianer .contain button:hover::after {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .track .container .content h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .track .container .content h1 {
     font-size: 24px;
   }
@@ -722,6 +854,11 @@ header .contaianer .contain button:hover::after {
     font-size: 12px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .track .container .content p {
+    font-size: 12px;
+  }
+}
 .track .container .content form {
   background-color: var(--color-white);
   width: 525px;
@@ -734,6 +871,11 @@ header .contaianer .contain button:hover::after {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .track .container .content form {
+    width: 250px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .track .container .content form {
     width: 250px;
   }
@@ -755,6 +897,13 @@ header .contaianer .contain button:hover::after {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .track .container .content form [type=num] {
+    width: 230px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .track .container .content form [type=num] {
     width: 230px;
     border-radius: 10px;
@@ -785,6 +934,14 @@ header .contaianer .contain button:hover::after {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .track .container .content form button {
+    width: 230px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .track .container .content form button {
     width: 230px;
     border-radius: 10px;
@@ -823,6 +980,12 @@ header .contaianer .contain button:hover::after {
     padding-bottom: 50px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .clients {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
 .clients .container .content {
   display: flex;
   align-items: center;
@@ -838,6 +1001,12 @@ header .contaianer .contain button:hover::after {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .clients .container .content {
+    width: 250px;
+    padding: 10px 0;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .clients .container .content {
     width: 250px;
     padding: 10px 0;
@@ -859,12 +1028,22 @@ header .contaianer .contain button:hover::after {
     width: 268px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .clients .container .content .text {
+    width: 268px;
+  }
+}
 @media (max-width: 320px) {
   .clients .container .content .text p {
     font-size: 10px;
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .clients .container .content .text p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .clients .container .content .text p {
     font-size: 10px;
   }
@@ -884,12 +1063,22 @@ header .contaianer .contain button:hover::after {
     padding: 5px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .clients .container .content .img-bk {
+    padding: 5px;
+  }
+}
 @media (max-width: 320px) {
   .clients .container .content .img-bk img {
     width: 40px;
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .clients .container .content .img-bk img {
+    width: 40px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .clients .container .content .img-bk img {
     width: 40px;
   }
@@ -911,6 +1100,12 @@ header .contaianer .contain button:hover::after {
     padding-bottom: 50px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
 .contact .container .content h1 {
   color: var(--color-dark);
   font-weight: 900;
@@ -927,6 +1122,14 @@ header .contaianer .contain button:hover::after {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .contact .container .content h1 {
+    font-size: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .contact .container .content h1 {
     font-size: 29px;
     display: flex;
@@ -964,6 +1167,11 @@ header .contaianer .contain button:hover::after {
     width: 240px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .contact .container .content .container .left form .in [type=text] {
+    width: 240px;
+  }
+}
 .contact .container .content .container .left form .in [type=tel] {
   margin: 0 auto;
   padding: 12px;
@@ -983,6 +1191,11 @@ header .contaianer .contain button:hover::after {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .contact .container .content .container .left form .in [type=tel] {
+    width: 240px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .contact .container .content .container .left form .in [type=tel] {
     width: 240px;
   }
@@ -1010,6 +1223,11 @@ header .contaianer .contain button:hover::after {
     width: 240px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .contact .container .content .container .left form .in [type=mail] {
+    width: 240px;
+  }
+}
 .contact .container .content .container .left form .messege {
   display: flex;
 }
@@ -1033,6 +1251,11 @@ header .contaianer .contain button:hover::after {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .contact .container .content .container .left form .messege [type=text] {
+    width: 240px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .contact .container .content .container .left form .messege [type=text] {
     width: 240px;
   }
@@ -1082,6 +1305,17 @@ header .contaianer .contain button:hover::after {
     font-size: 14px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .contact .container .content .container .left form .btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+}
 .contact .container .content .container .left form .btn button::after {
   content: "";
   position: absolute;
@@ -1110,6 +1344,12 @@ header .contaianer .contain button:hover::after {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .contact .container .content .container .right iframe {
+    width: 275px;
+    height: 275px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .contact .container .content .container .right iframe {
     width: 275px;
     height: 275px;
@@ -1226,6 +1466,11 @@ header .contaianer .contain button:hover::after {
     display: none;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .icon-footer .container .words .navbar-nav {
+    display: none;
+  }
+}
 .icon-footer .container .words .navbar-nav li a {
   font-size: 16px;
   font-weight: 700;
@@ -1295,6 +1540,11 @@ header .contaianer .contain button:hover::after {
     width: 240px;
   }
 }
+@media (max-width: 426px) and (min-width: 375px) {
+  .icon-footer .container .subscribe .email [type=mail] {
+    width: 240px;
+  }
+}
 .icon-footer .container .subscribe button {
   display: flex;
   align-items: center;
@@ -1323,6 +1573,14 @@ header .contaianer .contain button:hover::after {
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
+  .icon-footer .container .subscribe button {
+    width: 240px;
+    margin: 0px 0;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
   .icon-footer .container .subscribe button {
     width: 240px;
     margin: 0px 0;
@@ -1373,5 +1631,10 @@ footer .icon-f .footer-text {
 @media (max-width: 375px) and (min-width: 320px) {
   footer .icon-f .footer-text {
     font-size: 20px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
+  footer .icon-f .footer-text {
+    font-size: 22px;
   }
 }/*# sourceMappingURL=style.css.map */
