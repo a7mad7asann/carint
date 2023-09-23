@@ -406,7 +406,7 @@ header {
   
           @media (max-width: 320px) {
             padding-right: 0px;
-            font-size: 30px;
+            font-size: 24px;
           }
 
           @media (max-width:375px) and (min-width:320px){
@@ -468,7 +468,6 @@ header {
           margin-left: 185px;
   
           @media (max-width: 320px) {
-            width: 165px;
             margin: 0 75px;
             width: 165px;
             border-radius: 10px;
@@ -476,7 +475,6 @@ header {
           }
 
           @media (max-width:375px) and (min-width:320px) {
-            width: 165px;
             margin: 0 75px;
             width: 165px;
             border-radius: 10px;
@@ -484,8 +482,7 @@ header {
           }
 
           @media (max-width:426px) and (min-width:375px){
-            width: 165px;
-            margin: 0 75px;
+            margin: 0 115px;
             width: 165px;
             border-radius: 10px;
             font-size: 14px;
@@ -695,7 +692,9 @@ header {
 
   .container {
     .right {
-      h1 {
+      
+    
+     h1 {
         text-transform: capitalize;
         font-size: 29px;
         font-weight: 700;
@@ -799,8 +798,9 @@ header {
     }
 
     .left {
-      position: relative;
-      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       img {
         width: 380px;
@@ -820,7 +820,7 @@ header {
         }
 
         @media (max-width:426px) and (min-width:375px){
-          width: 230px;
+          width: 300px;
           margin: 20px 16px;
         }
       }
@@ -880,7 +880,7 @@ header {
         letter-spacing: 1.5px;
 
         @media (max-width: 320px) {
-          font-size: 24px;
+          font-size: 20px;
         }
 
         @media (max-width:375px) and (min-width:320px) {
@@ -1042,7 +1042,7 @@ header {
       margin: 0 10px;
         
       @media (max-width: 320px) {
-        width: 250px;
+        width: 235px;
         padding: 10px 0;
       }
 
@@ -1052,7 +1052,7 @@ header {
       }
 
       @media (max-width:426px) and (min-width:375px){
-        width: 250px;
+        width: 350px;
         padding: 10px 0;
       }
   
@@ -1063,7 +1063,7 @@ header {
           padding: 20px;
   
           @media (max-width: 320px) {
-            width: 268px;
+            width: 240px;
           }
 
           @media (max-width:375px) and (min-width:320px) {
@@ -1206,7 +1206,7 @@ header {
                 }
 
                 @media (max-width:426px) and (min-width:375px){
-                  width: 240px;
+                  width: 285px;
                 }
               }
 
@@ -1233,7 +1233,7 @@ header {
                 }
 
                 @media (max-width:426px) and (min-width:375px){
-                  width: 240px;
+                  width: 285px;
                 }
               }
 
@@ -1260,7 +1260,7 @@ header {
                 }
 
                 @media (max-width:426px) and (min-width:375px){
-                  width: 240px;
+                  width: 285px;
                 }
               }
             }
@@ -1292,7 +1292,7 @@ header {
                 }
 
                 @media (max-width:426px) and (min-width:375px){
-                  width: 240px;
+                  width: 285px;
                 }
               }
 
@@ -1381,8 +1381,8 @@ header {
 
           iframe {
             @media (max-width: 320px) {
-              width: 240px;
-              height: 240px;
+              width: 200px;
+              height: 200px;
             }
 
             @media (max-width:375px) and (min-width:320px){
@@ -1391,8 +1391,8 @@ header {
             }
 
             @media (max-width:426px) and (min-width:375px){
-              width: 275px;
-              height: 275px;
+              width: 315px;
+              height: 315px;
             }
           } 
         }
@@ -1440,27 +1440,56 @@ header {
                 height: 20px;
                 filter: var(--filter-white);
                 transition: all 0.3s;
+
+                @media (max-width: 320px) {
+                  width: 20px;
+                height: 20px;
+                }
+        
+                @media (max-width:375px) and (min-width:320px){
+                  width: 20px;
+                  height: 20px;
+                  }
+        
+                @media (max-width:426px) and (min-width:375px){
+                  width: 20px;
+                  height: 20px;
+                  }
               }
           }
             
           .text{
-              p {
+            p {
                 color: var(--color-white);
                 margin: 0;
                 transition: all 0.3s;
-              } 
+            } 
           }
 
           &:hover{
-              img{
+            img{
                 filter: var(--filter-hover);
                 width: 18px;
-              }
+                @media (max-width: 320px) {
+                  width: 23px;
+                  height: 23px;
+                 }
+        
+                 @media (max-width:375px) and (min-width:320px){
+                  width: 23px;
+                  height: 23px;
+                 }
+        
+                 @media (max-width:426px) and (min-width:375px){
+                  width: 23px;
+                  height: 23px;
+                  }
+            }
     
-              p{
+           p{
                 color: var(--hover-color);
                 font-size: 14px;
-              }
+            }
           }
         }
       }
@@ -1484,11 +1513,41 @@ header {
             border-style: none;
             filter: var(--filter-white);
             transition: all 0.3s;
+           
+            @media (max-width: 320px) {
+              width: 20px;
+            height: 20px;
+            }
+    
+            @media (max-width:375px) and (min-width:320px){
+              width: 20px;
+              height: 20px;
+              }
+    
+            @media (max-width:426px) and (min-width:375px){
+              width: 20px;
+              height: 20px;
+              }
 
             &:hover{
               width: 28px;
               height: 28px;
              filter: var(--filter-primary);
+
+             @media (max-width: 320px) {
+              width: 23px;
+            height: 23px;
+             }
+    
+             @media (max-width:375px) and (min-width:320px){
+              width: 23px;
+              height: 23px;
+             }
+    
+             @media (max-width:426px) and (min-width:375px){
+              width: 23px;
+              height: 23px;
+              }
             }
           }
         }
@@ -1502,6 +1561,20 @@ header {
         font-size: 20px;
         font-weight: 700;
         margin-bottom: 30px;
+        @media (max-width: 320px) {
+          margin-bottom: 30px;
+          margin-top: 20px;
+        }
+
+        @media (max-width:375px) and (min-width:320px){
+          margin-bottom: 30px;
+          margin-top: 20px;
+        }
+
+        @media (max-width:426px) and (min-width:375px){
+          margin-bottom: 30px;
+          margin-top: 20px;
+        }
       }
 
       p {
@@ -1510,6 +1583,18 @@ header {
     }
 
     .words {
+      @media (max-width: 320px) {
+        display: none;
+      }
+
+      @media (max-width:375px) and (min-width:320px){
+        display: none;
+      }
+
+      @media (max-width:426px) and (min-width:375px){
+        display: none;
+      }
+
       h1 {
         color: var(--color-white);
         text-transform: capitalize;
@@ -1588,6 +1673,21 @@ header {
         font-size: 20px;
         font-weight: 700;
         margin-bottom: 30px;
+        
+        @media (max-width: 320px) {
+          margin-bottom: 30px;
+          margin-top: 20px;
+        }
+
+        @media (max-width:375px) and (min-width:320px){
+          margin-bottom: 30px;
+          margin-top: 20px;
+        }
+
+        @media (max-width:426px) and (min-width:375px){
+          margin-bottom: 30px;
+          margin-top: 20px;
+        }
       }
 
       .email{
@@ -1620,7 +1720,7 @@ header {
           }
 
           @media (max-width:426px) and (min-width:375px){
-            width: 240px;
+            width: 310px;
           }
         }
       }
@@ -1659,7 +1759,7 @@ header {
         }
 
         @media (max-width:426px) and (min-width:375px){
-          width: 240px;
+          width: 310px;
           margin: 0px 0;
           border-radius: 0px 0px 20px 20px;
           font-size: 14px;
@@ -1713,6 +1813,9 @@ footer{
       font-weight: 900;
       text-transform: capitalize;
       color: var(--secondary-color);
+      @media (max-width:320px){
+        font-size: 18px;
+      }
 
       @media (max-width:375px) and (min-width:320px){
         font-size: 20px;

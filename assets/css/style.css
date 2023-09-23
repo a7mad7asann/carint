@@ -362,7 +362,7 @@ header .contaianer .contain .heading h1 {
 @media (max-width: 320px) {
   header .contaianer .contain .heading h1 {
     padding-right: 0px;
-    font-size: 30px;
+    font-size: 24px;
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
@@ -423,7 +423,6 @@ header .contaianer .contain button {
 }
 @media (max-width: 320px) {
   header .contaianer .contain button {
-    width: 165px;
     margin: 0 75px;
     width: 165px;
     border-radius: 10px;
@@ -432,7 +431,6 @@ header .contaianer .contain button {
 }
 @media (max-width: 375px) and (min-width: 320px) {
   header .contaianer .contain button {
-    width: 165px;
     margin: 0 75px;
     width: 165px;
     border-radius: 10px;
@@ -441,8 +439,7 @@ header .contaianer .contain button {
 }
 @media (max-width: 426px) and (min-width: 375px) {
   header .contaianer .contain button {
-    width: 165px;
-    margin: 0 75px;
+    margin: 0 115px;
     width: 165px;
     border-radius: 10px;
     font-size: 14px;
@@ -746,8 +743,9 @@ header .contaianer .contain button:hover::after {
   z-index: -1;
 }
 .about .container .left {
-  position: relative;
-  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .about .container .left img {
   width: 380px;
@@ -769,7 +767,7 @@ header .contaianer .contain button:hover::after {
 }
 @media (max-width: 426px) and (min-width: 375px) {
   .about .container .left img {
-    width: 230px;
+    width: 300px;
     margin: 20px 16px;
   }
 }
@@ -827,7 +825,7 @@ header .contaianer .contain button:hover::after {
 }
 @media (max-width: 320px) {
   .track .container .content h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
@@ -996,7 +994,7 @@ header .contaianer .contain button:hover::after {
 }
 @media (max-width: 320px) {
   .clients .container .content {
-    width: 250px;
+    width: 235px;
     padding: 10px 0;
   }
 }
@@ -1008,7 +1006,7 @@ header .contaianer .contain button:hover::after {
 }
 @media (max-width: 426px) and (min-width: 375px) {
   .clients .container .content {
-    width: 250px;
+    width: 350px;
     padding: 10px 0;
   }
 }
@@ -1020,7 +1018,7 @@ header .contaianer .contain button:hover::after {
 }
 @media (max-width: 320px) {
   .clients .container .content .text {
-    width: 268px;
+    width: 240px;
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
@@ -1169,7 +1167,7 @@ header .contaianer .contain button:hover::after {
 }
 @media (max-width: 426px) and (min-width: 375px) {
   .contact .container .content .container .left form .in [type=text] {
-    width: 240px;
+    width: 285px;
   }
 }
 .contact .container .content .container .left form .in [type=tel] {
@@ -1197,7 +1195,7 @@ header .contaianer .contain button:hover::after {
 }
 @media (max-width: 426px) and (min-width: 375px) {
   .contact .container .content .container .left form .in [type=tel] {
-    width: 240px;
+    width: 285px;
   }
 }
 .contact .container .content .container .left form .in [type=mail] {
@@ -1225,7 +1223,7 @@ header .contaianer .contain button:hover::after {
 }
 @media (max-width: 426px) and (min-width: 375px) {
   .contact .container .content .container .left form .in [type=mail] {
-    width: 240px;
+    width: 285px;
   }
 }
 .contact .container .content .container .left form .messege {
@@ -1257,7 +1255,7 @@ header .contaianer .contain button:hover::after {
 }
 @media (max-width: 426px) and (min-width: 375px) {
   .contact .container .content .container .left form .messege [type=text] {
-    width: 240px;
+    width: 285px;
   }
 }
 .contact .container .content .container .left form .btn {
@@ -1339,8 +1337,8 @@ header .contaianer .contain button:hover::after {
 }
 @media (max-width: 320px) {
   .contact .container .content .container .right iframe {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
   }
 }
 @media (max-width: 375px) and (min-width: 320px) {
@@ -1351,8 +1349,8 @@ header .contaianer .contain button:hover::after {
 }
 @media (max-width: 426px) and (min-width: 375px) {
   .contact .container .content .container .right iframe {
-    width: 275px;
-    height: 275px;
+    width: 315px;
+    height: 315px;
   }
 }
 
@@ -1393,6 +1391,24 @@ header .contaianer .contain button:hover::after {
   filter: var(--filter-white);
   transition: all 0.3s;
 }
+@media (max-width: 320px) {
+  .icon-footer .container .mail .icon-container .icon-box .img-bc img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 375px) and (min-width: 320px) {
+  .icon-footer .container .mail .icon-container .icon-box .img-bc img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
+  .icon-footer .container .mail .icon-container .icon-box .img-bc img {
+    width: 20px;
+    height: 20px;
+  }
+}
 .icon-footer .container .mail .icon-container .icon-box .text p {
   color: var(--color-white);
   margin: 0;
@@ -1401,6 +1417,24 @@ header .contaianer .contain button:hover::after {
 .icon-footer .container .mail .icon-container .icon-box:hover img {
   filter: var(--filter-hover);
   width: 18px;
+}
+@media (max-width: 320px) {
+  .icon-footer .container .mail .icon-container .icon-box:hover img {
+    width: 23px;
+    height: 23px;
+  }
+}
+@media (max-width: 375px) and (min-width: 320px) {
+  .icon-footer .container .mail .icon-container .icon-box:hover img {
+    width: 23px;
+    height: 23px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
+  .icon-footer .container .mail .icon-container .icon-box:hover img {
+    width: 23px;
+    height: 23px;
+  }
 }
 .icon-footer .container .mail .icon-container .icon-box:hover p {
   color: var(--hover-color);
@@ -1426,10 +1460,46 @@ header .contaianer .contain button:hover::after {
   filter: var(--filter-white);
   transition: all 0.3s;
 }
+@media (max-width: 320px) {
+  .icon-footer .container .mail .icon-container-so .icon-box img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 375px) and (min-width: 320px) {
+  .icon-footer .container .mail .icon-container-so .icon-box img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
+  .icon-footer .container .mail .icon-container-so .icon-box img {
+    width: 20px;
+    height: 20px;
+  }
+}
 .icon-footer .container .mail .icon-container-so .icon-box img:hover {
   width: 28px;
   height: 28px;
   filter: var(--filter-primary);
+}
+@media (max-width: 320px) {
+  .icon-footer .container .mail .icon-container-so .icon-box img:hover {
+    width: 23px;
+    height: 23px;
+  }
+}
+@media (max-width: 375px) and (min-width: 320px) {
+  .icon-footer .container .mail .icon-container-so .icon-box img:hover {
+    width: 23px;
+    height: 23px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
+  .icon-footer .container .mail .icon-container-so .icon-box img:hover {
+    width: 23px;
+    height: 23px;
+  }
 }
 .icon-footer .container .logo h1 {
   color: var(--color-white);
@@ -1438,8 +1508,41 @@ header .contaianer .contain button:hover::after {
   font-weight: 700;
   margin-bottom: 30px;
 }
+@media (max-width: 320px) {
+  .icon-footer .container .logo h1 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 375px) and (min-width: 320px) {
+  .icon-footer .container .logo h1 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
+  .icon-footer .container .logo h1 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
 .icon-footer .container .logo p {
   color: var(--color-white);
+}
+@media (max-width: 320px) {
+  .icon-footer .container .words {
+    display: none;
+  }
+}
+@media (max-width: 375px) and (min-width: 320px) {
+  .icon-footer .container .words {
+    display: none;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
+  .icon-footer .container .words {
+    display: none;
+  }
 }
 .icon-footer .container .words h1 {
   color: var(--color-white);
@@ -1510,6 +1613,24 @@ header .contaianer .contain button:hover::after {
   font-weight: 700;
   margin-bottom: 30px;
 }
+@media (max-width: 320px) {
+  .icon-footer .container .subscribe h1 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 375px) and (min-width: 320px) {
+  .icon-footer .container .subscribe h1 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 426px) and (min-width: 375px) {
+  .icon-footer .container .subscribe h1 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
 .icon-footer .container .subscribe .email {
   display: flex;
   align-items: center;
@@ -1542,7 +1663,7 @@ header .contaianer .contain button:hover::after {
 }
 @media (max-width: 426px) and (min-width: 375px) {
   .icon-footer .container .subscribe .email [type=mail] {
-    width: 240px;
+    width: 310px;
   }
 }
 .icon-footer .container .subscribe button {
@@ -1582,7 +1703,7 @@ header .contaianer .contain button:hover::after {
 }
 @media (max-width: 426px) and (min-width: 375px) {
   .icon-footer .container .subscribe button {
-    width: 240px;
+    width: 310px;
     margin: 0px 0;
     border-radius: 0px 0px 20px 20px;
     font-size: 14px;
@@ -1627,6 +1748,11 @@ footer .icon-f .footer-text {
   font-weight: 900;
   text-transform: capitalize;
   color: var(--secondary-color);
+}
+@media (max-width: 320px) {
+  footer .icon-f .footer-text {
+    font-size: 18px;
+  }
 }
 @media (max-width: 375px) and (min-width: 320px) {
   footer .icon-f .footer-text {
